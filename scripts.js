@@ -46,9 +46,11 @@ function checkAnswer(){
 }
 
 
-function playAgain(score){
+function playAgain(){
     score = 0;
     document.getElementById("score").textContent = score; //sources ID 
+    document.getElementById("div-questions").style.display = "block"; //become visible
+    document.getElementById("div-success").style.display = "none"; //hide success message
     generateQuestion();
 }
 
