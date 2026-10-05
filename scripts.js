@@ -1,5 +1,9 @@
 Math.PI;
 
+let num1, num2, operator, correctAnswer;
+const operators = ["*", "+", "-"];
+let score = 0;
+
 function checkAnswer(){
 
 }
@@ -9,8 +13,7 @@ function playAgain(){
 }
 
 function generateQuestion(){
-    let num1, num2, operator, correctAnswer;
-    const operators = ["*", "+", "-"];
+
     let ans = ""
 
     num1 = Math.floor(Math.random() * 11);
